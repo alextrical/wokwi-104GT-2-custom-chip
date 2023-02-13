@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "author": "Alextrical",
+  "editor": "wokwi",
+  "parts": [
+    { "type": "wokwi-arduino-uno", "id": "uno", "top": -62.67, "left": -98.67, "attrs": {} },
+    { "type": "chip-104GT-2", "id": "chip1", "top": 166, "left": 69.64, "attrs": {} }
+  ],
+  "connections": [
+    [ "uno:A0", "chip1:SIG", "orange", [ "v25.14", "h68.9" ] ],
+    [ "uno:GND.2", "chip1:GND", "black", [ "v0" ] ],
+    [ "uno:5V", "chip1:VCC", "red", [ "v0" ] ]
+  ],
+  "dependencies": {}
+}

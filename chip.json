@@ -1,0 +1,19 @@
+{
+  "name": "104GT-2",
+  "author": "Alextrical",
+  "pins": [
+    "GND",
+    "VCC",
+    "SIG"
+  ],
+  "controls": [
+    {
+      "id": "temperature",
+      "label": "Temperature",
+      "type": "range",
+      "min": -20,
+      "max": 320,
+      "step": 1
+    }
+  ]
+}
